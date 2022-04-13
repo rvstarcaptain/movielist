@@ -1,8 +1,15 @@
 .styling{
-    border: 2px solid grey;
+    border: 1px solid grey;
     margin: 5px;   
-    display: inline-block;  
     color: aliceblue;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+}
+.styling:hover,.cardhover:hover{
+    cursor: pointer;
+    
+    box-shadow: 5px 5px 10px 2px rgb(0, 179, 255);
     
     
 }

@@ -1,14 +1,16 @@
 import React from 'react'
 import {Card} from 'react-bootstrap';
 import './Movielist.css'
+
+
 export default function Movielist(props) {
     
   return (
     <div >
-     <div  >{
-            props.data.map((item)=>{
+     <div className='cardhover' >{
+            props.data.map((item,i)=>{
                 return(
-                    <Card  className='styling' style={{ width: '18rem'  }} >
+                    <Card  key={i}  className='styling' style={{ width: '18rem'  }} >
   <Card.Img variant="top" src={item.img.src} alt={item.img.alt} /><hr></hr>
   <Card.Body>
       
@@ -28,6 +30,7 @@ export default function Movielist(props) {
          }
          
      </div>
+    
     </div>
   )
 }

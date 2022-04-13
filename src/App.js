@@ -75,10 +75,12 @@ function App() {
       "ranking": 5
     }
   ]
-
+ 
   return (
     <div className="App">
-      <Movielist data={list}/>
+      <Movielist data={list}  />
+
+      
     </div>
   );
 }
