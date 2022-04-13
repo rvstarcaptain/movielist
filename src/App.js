@@ -16,7 +16,8 @@ function App() {
         "width":'100',
         "height":"180"
       },
-      "ranking": 1
+      "ranking": 1,
+      "link":"https://en.wikipedia.org/wiki/Avatar_(2009_film)"
     },
     {
       "id": 2,
@@ -30,7 +31,8 @@ function App() {
         "width":'100',
         "height":"180"
       },
-      "ranking": 2
+      "ranking": 2,
+      "link":"https://en.wikipedia.org/wiki/Avatar_(2009_film)"
     },
     {
       "id": 3,
@@ -44,7 +46,8 @@ function App() {
         "width":'100',
         "height":"180"
       },
-      "ranking": 3
+      "ranking": 3,
+      "link":"https://en.wikipedia.org/wiki/Avatar_(2009_film)"
     },
     {
       "id": 4,
@@ -58,7 +61,8 @@ function App() {
         "width":'100',
         "height":"180"
       },
-      "ranking": 4
+      "ranking": 4,
+      "link":"https://en.wikipedia.org/wiki/Avatar_(2009_film)"
     },
     {
       "id": 5,
@@ -72,7 +76,8 @@ function App() {
         "width":'100',
         "height":"180"
       },
-      "ranking": 5
+      "ranking": 5,
+      "link":"https://en.wikipedia.org/wiki/Avatar_(2009_film)"
     }
   ]
  

@@ -20,7 +20,8 @@ export default function Movielist(props) {
       Distributor:{item.distributor} <br></br><hr></hr>
       Year:{item.year} <br></br><hr></hr>
       Amount:{item.amount} <br></br><hr></hr>
-      Ranking:{item.ranking}
+      Ranking:{item.ranking}<br></br><hr></hr>
+      <a href={item.link} >WikiLink</a>
     </Card.Text>
     
   </Card.Body>
