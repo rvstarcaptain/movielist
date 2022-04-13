@@ -8,12 +8,12 @@ export default function Movielist(props) {
      <div  >{
             props.data.map((item)=>{
                 return(
-                    <Card className='styling' style={{ width: '18rem'  }} >
-  <Card.Img  src={item.img.src} alt={item.img.alt} />
+                    <Card  className='styling' style={{ width: '18rem'  }} >
+  <Card.Img variant="top" src={item.img.src} alt={item.img.alt} /><hr></hr>
   <Card.Body>
       
-    <Card.Title><span>{item.id}</span><br></br>
-    <h2>{item.title}</h2></Card.Title>
+    <Card.Title>
+    <h2>#{item.id}-{item.title}</h2></Card.Title>
     <Card.Text>
       Distributor:{item.distributor} <br></br><hr></hr>
       Year:{item.year} <br></br><hr></hr>
