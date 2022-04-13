@@ -1,25 +1,26 @@
 import React from 'react'
-import {Card,Button, NavItem} from 'react-bootstrap';
-
+import {Card} from 'react-bootstrap';
+import './Movielist.css'
 export default function Movielist(props) {
     
   return (
-    <div>
-     <div>{
+    <div >
+     <div  >{
             props.data.map((item)=>{
                 return(
-                    <Card style={{ width: '15rem' }}>
-  <Card.Img variant="top" src={item.img} />
+                    <Card className='styling' style={{ width: '18rem'  }} >
+  <Card.Img  src={item.img.src} alt={item.img.alt} />
   <Card.Body>
       
-    <Card.Title><span>{item.id}</span>{item.title}</Card.Title>
+    <Card.Title><span>{item.id}</span><br></br>
+    <h2>{item.title}</h2></Card.Title>
     <Card.Text>
-      {item.distributor} <br></br>
-      {item.year} <br></br>
-      {item.amount} <br></br>
-      {item.ranking}
+      Distributor:{item.distributor} <br></br><hr></hr>
+      Year:{item.year} <br></br><hr></hr>
+      Amount:{item.amount} <br></br><hr></hr>
+      Ranking:{item.ranking}
     </Card.Text>
-    <hr></hr>
+    
   </Card.Body>
 </Card>
                 )
