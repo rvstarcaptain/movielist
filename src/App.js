@@ -1,4 +1,4 @@
-
+import { useEffect } from 'react';
 import './App.css';
 import Movielist from './Component/Movielist';
 
@@ -32,7 +32,7 @@ function App() {
         "height":"180"
       },
       "ranking": 2,
-      "link":"https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+      "link":"https://en.wikipedia.org/wiki/Titanic_(1997_film)"
     },
     {
       "id": 3,
@@ -47,7 +47,7 @@ function App() {
         "height":"180"
       },
       "ranking": 3,
-      "link":"https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+      "link":"https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens"
     },
     {
       "id": 4,
@@ -62,7 +62,7 @@ function App() {
         "height":"180"
       },
       "ranking": 4,
-      "link":"https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+      "link":"https://en.wikipedia.org/wiki/Avengers:_Infinity_War"
     },
     {
       "id": 5,
@@ -77,10 +77,17 @@ function App() {
         "height":"180"
       },
       "ranking": 5,
-      "link":"https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+      "link":"https://en.wikipedia.org/wiki/Jurassic_World"
     }
   ]
- 
+//  const apireq = async()=> {
+//    let response = await fetch("https://my-json-server.typicode.com/typicode/demo/posts");
+//    let data= response.json();
+//    console.log(data)
+ //}
+ useEffect( ()=>{
+  fetch("https://my-json-server.typicode.com/typicode/demo/posts").then((result)=> result.json()).then((data)=> console.log(data))
+ },[])
   return (
     <div className="App">
       <Movielist data={list}  />
