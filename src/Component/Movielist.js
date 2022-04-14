@@ -21,7 +21,7 @@ export default function Movielist(props) {
                                     Year:{item.year} <br></br><hr></hr>
                                     Amount:{item.amount} <br></br><hr></hr>
                                     Ranking:{item.ranking}<br></br><hr></hr>
-                                    <a href={item.link} >WikiLink</a>
+                                    <a  className='link' href={item.link} >WikiLink</a>
                                 </Card.Text>
 
                             </Card.Body>
