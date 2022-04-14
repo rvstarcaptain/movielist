@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/movielist/static/css/main.b6141287.css",
-    "main.js": "/movielist/static/js/main.bfa4bae2.js",
+    "main.css": "/movielist/static/css/main.f1f86d1a.css",
+    "main.js": "/movielist/static/js/main.5b6fcf31.js",
     "static/js/787.b2da689d.chunk.js": "/movielist/static/js/787.b2da689d.chunk.js",
     "static/media/avengers.png": "/movielist/static/media/avengers.f8c4704f57bccda1229c.png",
     "static/media/jurassic.png": "/movielist/static/media/jurassic.712f2ccd2c2efac0c196.png",
@@ -9,12 +9,12 @@
     "static/media/starwars.png": "/movielist/static/media/starwars.270c1eeb432ef037adc2.png",
     "static/media/avatar.png": "/movielist/static/media/avatar.b3a0ea82868975c9899a.png",
     "index.html": "/movielist/index.html",
-    "main.b6141287.css.map": "/movielist/static/css/main.b6141287.css.map",
-    "main.bfa4bae2.js.map": "/movielist/static/js/main.bfa4bae2.js.map",
+    "main.f1f86d1a.css.map": "/movielist/static/css/main.f1f86d1a.css.map",
+    "main.5b6fcf31.js.map": "/movielist/static/js/main.5b6fcf31.js.map",
     "787.b2da689d.chunk.js.map": "/movielist/static/js/787.b2da689d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6141287.css",
-    "static/js/main.bfa4bae2.js"
+    "static/css/main.f1f86d1a.css",
+    "static/js/main.5b6fcf31.js"
   ]
 }
