@@ -19,3 +19,6 @@
 .link:active{
     color: blue;
 }
+.link:visited{
+    color: rgb(78, 126, 6);
+}
